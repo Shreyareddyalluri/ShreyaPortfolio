@@ -1,6 +1,13 @@
 const path = require('path')
- 
+
 module.exports = {
+  async redirects() {
+    return [
+      { source: '/home', destination: '/', permanent: false },
+      { source: '/index', destination: '/', permanent: false },
+      { source: '/favicon.ico', destination: '/favicon.svg', permanent: false },
+    ]
+  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },

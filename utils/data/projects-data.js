@@ -1,40 +1,52 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Robinson Country Intelligence Index',   
+        description: 'At RCII, I contributed to the development and maintenance of scalable web applications using Angular, Bootstrap, TypeScript, and Node.js. I ensured responsive design and seamless user experience. Collaborated in pair-programming sessions with team members and stakeholders, managing code with Git and GitHub. Built secure and serverless applications leveraging AWS services like Lambda, S3, Cognito, and CloudFront. I also explored and integrated AI-driven solutions such as Vector Models, Semantic Search, and LLMs to create innovative proof-of-concept applications.',
+        tools : ['Angular', 'Bootstrap', 'Node.js', 'AWS Lambda', 'AWS S3', 'AWS Cognito', 'CloudFront', 'Serverless Framework', 'Git', 'GitHub', 'LLMs', 'Vector Models', 'Semantic Search'],
+        role: 'Full Stack Developer',
         code: '',
         demo: '',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Innovative Platform Enhanced Visual Communication',      
+        description: 'I developed a communication platform powered by YOLOv5 to support physically challenged individuals, enabling them to interact more effectively with the community. The platform was built using Django, RESTful APIs, and a customized dataset specifically designed to meet the unique needs of users. It served as a vital bridge between users and society, promoting accessibility and inclusion through AI-powered visual recognition.',
+        tools: ['Python', 'HTML/CSS', 'JavaScript', 'YOLOv5', 'Django', 'SQL', 'RESTful API'],
+        role: 'Full Stack Development and Machine Learning Engineer',
         code: '',
         demo: '',
     },
     {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
+
+    id: 3,
+    name: 'Kidney Stone Detection Using Canny Edge and CNN',
+    description: 'Designed and implemented an automated kidney stone detection system by integrating Canny edge detection with Convolutional Neural Networks (CNN) to accurately identify kidney stones in medical images. The system significantly reduced manual inspection time for healthcare professionals, improved diagnostic accuracy, and enhanced patient outcomes through advanced image processing and machine learning techniques.',
+    tools: ['Python', 'OpenCV', 'TensorFlow', 'SQLite', 'Matplotlib', 'Git', 'Jupyter Notebook'],
+    role: 'Machine Learning Engineer',
+    code: '',
+    demo: '',
+    },
+    
+    {
+    id: 4,
+    name: 'Responsive E-Commerce Website',
+    tools: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'MySQL', 'Express.js'],
+    role: 'Full Stack Developer',
+    description: 'Developed a fully responsive e-commerce website using React.js for the frontend and Node.js with Express.js for the backend. Implemented fluid grid layouts, flexible images, and CSS3 media queries to ensure seamless adaptation across various screen sizes. Tailored content and navigation for optimal readability and functionality, delivering a smooth, device-specific browsing experience that enhanced user engagement and satisfaction.',
+    code: '',
+    demo: '',
+     
     },
     {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        id: 5,
+        name: 'AI-Powered Job Tracker',
+        tools: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'MongoDB', 'Gmail API', 'OAuth 2.0', 'Ollama'],
+        role: 'Full Stack Developer',
+        description: 'Developed an AI-powered job tracker using React.js to automatically organize and track job applications. Implemented Gmail OAuth 2.0 authentication to securely connect users’ Gmail accounts and fetch job-related emails through the Gmail API. Integrated a local AI model (Ollama) to classify emails such as application confirmations, interview invitations, and rejections, enabling automatic status updates and actionable insights through an intuitive dashboard.',
         code: '',
         demo: '',
-        role: 'Full Stack Developer',
-    }
+      }
 ];
 
 
